@@ -1,28 +1,68 @@
 fileFormatVersion: 2
 guid: 4d01d7e8c7b73554a802ab93d246ccfc
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Left_Atrium
-    100004: z3207_M_C_0603_Right_Atrium
-    100006: z3214_M_C_0602_Ventricles not cut
-    400000: //RootNode
-    400002: Left_Atrium
-    400004: z3207_M_C_0603_Right_Atrium
-    400006: z3214_M_C_0602_Ventricles not cut
-    2100000: Heart_SG
-    4300000: z3207_M_C_0603_Right_Atrium
-    4300002: z3214_M_C_0602_Ventricles not cut
-    4300004: Left_Atrium
-    7400000: Normal Heartbeat
-    7400002: Heartbeat Transition
-    7400004: Rapid Heartbeat
-    9500000: //RootNode
-    13700000: Left_Atrium
-    13700002: z3207_M_C_0603_Right_Atrium
-    13700004: z3214_M_C_0602_Ventricles not cut
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Left_Atrium
+  - first:
+      1: 100004
+    second: z3207_M_C_0603_Right_Atrium
+  - first:
+      1: 100006
+    second: z3214_M_C_0602_Ventricles not cut
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Left_Atrium
+  - first:
+      4: 400004
+    second: z3207_M_C_0603_Right_Atrium
+  - first:
+      4: 400006
+    second: z3214_M_C_0602_Ventricles not cut
+  - first:
+      21: 2100000
+    second: Heart_SG
+  - first:
+      43: 4300000
+    second: z3207_M_C_0603_Right_Atrium
+  - first:
+      43: 4300002
+    second: z3214_M_C_0602_Ventricles not cut
+  - first:
+      43: 4300004
+    second: Left_Atrium
+  - first:
+      74: 7400000
+    second: Normal Heartbeat
+  - first:
+      74: 7400002
+    second: Heartbeat Transition
+  - first:
+      74: 7400004
+    second: Rapid Heartbeat
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Left_Atrium
+  - first:
+      137: 13700002
+    second: z3207_M_C_0603_Right_Atrium
+  - first:
+      137: 13700004
+    second: z3214_M_C_0602_Ventricles not cut
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -69,6 +109,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Normal Heartbeat
       takeName: Take 001
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 61
       wrapMode: 0
@@ -97,6 +138,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Heartbeat Transition
       takeName: Take 001
+      internalID: 7400002
       firstFrame: 62
       lastFrame: 121
       wrapMode: 0
@@ -125,6 +167,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rapid Heartbeat
       takeName: Take 001
+      internalID: 7400004
       firstFrame: 122
       lastFrame: 140
       wrapMode: 0
@@ -160,22 +203,23 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0254
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -184,10 +228,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -197,6 +242,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
